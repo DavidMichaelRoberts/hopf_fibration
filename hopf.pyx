@@ -1,3 +1,9 @@
+"""
+Helper functions for interactive demo
+
+http://interact.sagemath.org/node/57
+"""
+
 from libc.math cimport sin, cos, atan2, acos, sqrt, M_1_PI
 cdef class fib_param2(object):
     cdef float a,b,c,al,be
