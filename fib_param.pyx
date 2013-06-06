@@ -1,7 +1,5 @@
 """
-Helper functions for interactive demo
-
-http://interact.sagemath.org/node/57
+Fiber parametrization function improved to Cython by Jason Grout.
 """
 
 from libc.math cimport sin, cos, atan2, acos, sqrt, M_1_PI

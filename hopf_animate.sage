@@ -13,12 +13,13 @@ http://www.nilesjohnson.net/hopf.html for more information.
 #                  http://www.gnu.org/licenses/
 #*****************************************************************************
 
-NEEDS to import fib_param2 from hopf.pyx
+NEEDS to import fib_param2 from fib_param.pyx
+"""
+load("fib_param.pyx")
+
 
 """
-
-"""
-Benchmark Timings:
+Benchmark Timings (Jason Grout):
 
 Low quality::
 
