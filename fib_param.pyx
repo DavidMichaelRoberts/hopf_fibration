@@ -5,7 +5,7 @@ Fiber parametrization function improved to Cython by Jason Grout.
 from libc.math cimport sin, cos, atan2, acos, sqrt, M_1_PI
 cdef class fib_param2(object):
     cdef float a,b,c,al,be
-    def __init__(self, base_point, pm=1):
+    def __init__(self, base_point):
         self.a=base_point[0]
         self.b=base_point[1]
         self.c=base_point[2]

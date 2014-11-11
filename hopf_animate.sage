@@ -304,7 +304,7 @@ class HopfFibers(Tachyon):
                 verbose('  (b,c,pm) = '+str(tuple('%+.3f..'%x for x in (b,c,pm))), level=3)
                 # parametric function for fiber:
                 # (if a < 0, flip b)
-                pf = fib_param2((a,b,c),pm)
+                pf = fib_param2((a,b,c))
                 self.parametric_plot(pf,
                                      0,2*pi,
                                      tex=fibtex_name,
